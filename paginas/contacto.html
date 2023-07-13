@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nano 3d - Impresiones</title>
+    <link rel="shortcut icon" href="../imagenes/printer.png">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css"> 
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <!-- Logo -->
+              <a class="navbar-brand" href="../index.html">
+                <img src="../imagenes/logo.png" alt="Logo">
+              </a>
+        
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="btn btn-outline-danger" href="#">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+        <h1 class="titulo">CONTACTO</h1>
+    <hr>
+    <div class="mapa"><iframe width="920" height="560" id="gmap_canvas" src="https://maps.google.com/maps?q=cordoba+nuevo+centro+shopping&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+    <hr>
+    <div class="slider-contacto">
+        <div class="formulario-contacto">
+            <form action="#" method="POST">
+                <input type="text" id="nombre" name="nombre" required class="form-control" placeholder="Nombre"> 
+                <input type="email" id="correo" name="correo" required class="form-control" placeholder="Correo">
+                <textarea id="mensaje" name="mensaje" rows="10"  required class="form-control">Deje su consulta</textarea>
+                <input type="button" value="Enviar" class="btn btn-danger">
+            </form>
+        </div>
+        <div class="info-contacto">
+            <p>
+                Córdoba Capital, Córdoba, Argentina.<br>
+                (+54) 351 XXXXXX<br>
+                (+54) 351 XXXXXX<br>
+                info@nano3d.com.ar
+            </p>
+        </div>
+    </div>
+
+    <hr>
+    <div class="form-contenedor">
+        <form action="#" method="POST" class="form-suscripcion">
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required class="form-control">
+            <input type="email" id="correo" name="correo" placeholder="Correo Electrónico" required class="form-control"> 
+            <input type="button" value="Suscribirse" class="btn btn-warning">
+        </form>
+      </div> 
+    <hr>
+    <footer>
+        <p>Córdoba, Argentina</p>
+        <p>@2023 Todos los derechos reservados.</p>
+    </footer>
+    <script src="../js/bootstrap.min.js" ></script> 
+</body>
+</html>

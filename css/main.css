@@ -1,0 +1,515 @@
+body {
+    background-color: rgb(19, 19, 19);
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 767px) {
+
+  .slider {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    color:white;
+    justify-items: center;
+    align-items: center;
+    padding-top: 10px ;
+    text-align: center;
+  }
+
+  .slider-productos {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-content: start;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .slider-productos h2 {
+    font-size: 20px;
+    color:#ffc957;
+  }
+
+  .slider-productos p {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .btn-ancho {
+    max-width: auto;
+  }
+
+  .envios {
+    background:#ff3823;
+    color:white;
+    height: 80px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .video {
+    width: auto; 
+    height: auto;
+  }
+
+  .slider-fondo {
+    background-color:whitesmoke;
+    padding-bottom: 10px;
+  }
+
+  .slider-video-texto h2 {
+    font-size: 32px;
+    letter-spacing: 0.15px;
+    font-weight: 800;
+    color: #ffc957;
+  }
+
+  .slider-video-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .form-control{
+    border-width: 1px; 
+    border-color:#ffc957;
+    text-align: center;
+  }   
+
+  .form-control:focus {
+    border-color: #ff3823;
+    box-shadow: 0 0 0 0.2rem rgba(231, 39, 5, 0.633);
+  }
+
+  footer {
+    color: white;
+    text-align: center;
+  }
+
+  hr {
+    border: 1px solid rgb(107, 100, 100);
+  }
+
+  .titulo{
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration:underline;
+    text-decoration-color: #ffc957;
+    letter-spacing: 2.5px;
+    font-weight: 800
+   }
+
+   .card-body {
+    background-color:#ff3823;
+  }   
+}
+
+/* Estilos para pantallas medianas */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .titulo{
+    font-size: 44px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    text-decoration:underline;
+    text-decoration-color: #ffc957;
+    letter-spacing: 2.5px;
+    font-weight: 800
+   }
+   
+   .slider {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    color:white;
+    justify-items: center;
+    align-items: center;
+    padding-top: 10px ;
+    text-align: center;
+  }
+
+  .slider-productos {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-content: start;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+  }
+
+  .card-body {
+    background-color:#ff3823;
+  }
+  
+  .card-text {
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    font-size: 30px;
+  }  
+
+  .form-control{
+    border-width: 1px; 
+    border-color:#ffc957;
+    text-align: center;
+  }   
+
+  .form-control:focus {
+    border-color: #ff3823;
+    box-shadow: 0 0 0 0.2rem rgba(231, 39, 5, 0.633);
+  }
+
+  footer {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  hr {
+    border: 1px solid rgb(107, 100, 100);
+  }
+  
+  .slider-productos h2 {
+    font-size: 42px;
+    letter-spacing: 0.15px;
+    font-weight: 800;
+    color: #ffc957;
+  }
+
+  .slider-productos p {
+    font-size: 30px;
+    letter-spacing: 0.15px;
+  }
+
+  .btn-ancho {
+    max-width: auto;
+  }
+
+  .envios {
+    background:#ff3823;
+    color:white;
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .video {
+    width: 500px; 
+    height: 300px;
+  }
+  
+  .slider-video-texto h2 {
+    font-size: 32px;
+    letter-spacing: 0.15px;
+    font-weight: 800;
+    color: #ffc957;
+  }
+
+  .slider-video-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    font-size: 26px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
+  }
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 992px) {
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color:white;
+}
+
+a {
+    color:white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.titulo{
+ font-size: 38px;
+ font-weight: bold;
+ text-align: center;
+ padding-top: 50px;
+ text-decoration:underline;
+ text-decoration-color: #ffc957;
+ letter-spacing: 2.5px;
+ font-weight: 800;
+}
+
+.bloque-nosotros{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color:white;
+  justify-items: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  gap: 40px;
+}
+
+.card-text {
+  text-align: center;
+  font-weight: 800;
+  color: white;
+}
+
+.card-body {
+  background-color:#ff3823;
+}
+
+/*.bloque-nosotros img{
+  padding-right: 50px;
+}
+
+.bloque-nosotros-texto{
+  text-align: center;
+}
+
+.bloque-nosotros-texto h2{
+  color: #ffc957;
+  display: inline;
+}*/
+
+.logo {
+  width: max(100px, 18vw);
+  background-color: #0a0a23;
+  aspect-ratio: 35 / 4;
+  padding: 0.4rem;
+}
+
+/*
+.menu{
+  text-align: right;
+  padding-bottom: 60px;
+  padding-right: 100px;
+}
+.menu a:link, a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .menu a:hover, a:active {
+    background-color: #ff3823;
+  }
+*/
+  footer {
+    color: white;
+    text-align: center;
+  }
+
+  .slider {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    color:white;
+    justify-items: center;
+    align-items: center;
+    padding-top: 50px ;
+  }
+
+  .slider-fondo {
+    background-color:whitesmoke;
+    padding-bottom: 50px;
+  }
+
+  .slider-productos {
+    padding-left: 100px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-content: start;
+  }
+
+  .slider-productos h2 {
+    font-size: 42px;
+    letter-spacing: 0.15px;
+    font-weight: 800;
+    color: #ffc957;
+  }
+
+  .slider-productos p {
+    font-size: 22px;
+    letter-spacing: 0.15px;
+  }
+
+  .slider-productos-imagen {
+    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slider-productos-imagen img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .btn-ancho {
+    width: 200px;
+  }
+
+  .slider-video {
+    grid-column: 1;
+    padding-left: 100px;
+  }
+
+  .video {
+    width: 553px; 
+    height: 285px;
+  }
+
+  .slider-video-texto {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    padding-right: 100px;
+  }
+
+  .slider-video-texto h2 {
+    font-size: 42px;
+    letter-spacing: 0.15px;
+    font-weight: 800;
+    color: #ffc957;
+  }
+
+  .envios {
+    background:#ff3823;
+    color:white;
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .form-contenedor {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-suscripcion {
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 900px;
+  }
+
+  .form-control{
+    border-width: 1px; 
+    border-color:#ffc957;
+  }   
+
+  .form-control:focus {
+    border-color: #ff3823;
+    box-shadow: 0 0 0 0.2rem rgba(231, 39, 5, 0.633);
+} 
+
+  /*.boton {
+    background-color: #ff3823;
+    color: white;
+    width: 100px;
+  }*/
+
+  .campo-texto {
+    height: 25px;
+    margin-right: 10px;
+    width: 300px;
+    margin-bottom: 5px;
+  }
+
+  .campo-mensaje {
+    height: 50px;
+    margin-right: 10px;
+    width: 300px;
+    margin-bottom: 5px;
+  }
+
+  .caja-servicios{
+    border-left: solid 4px white;
+    padding-left: 25px;
+  }
+
+  .caja-servicios h2{
+    color: #ff3823;
+  }
+
+  .parrafo-servicios {
+    color:white;
+    font-size: 16px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+  }
+
+  .mapa {
+  text-align: center;
+  }
+
+  hr {
+    border: 1px solid rgb(107, 100, 100);
+  }
+
+  .slider-contacto {
+    display: grid;
+    grid-template-columns:  60% 40%;
+    color:white;
+    align-items: center;
+    padding-top: 50px ;
+  }
+
+  .info-contacto{
+    font-size: 16px;
+    justify-items:left;
+  }
+
+  .formulario-contacto {
+    padding-left: 300px;
+  }
+
+  .formulario-contacto form {
+    width: 500px;
+  }
+
+}
