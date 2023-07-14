@@ -113,7 +113,14 @@ body {
 
    .card-body {
     background-color:#ff3823;
-  }   
+  }
+  
+  .card-text {
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    font-size: 20px;
+  }
 }
 
 /* Estilos para pantallas medianas */
