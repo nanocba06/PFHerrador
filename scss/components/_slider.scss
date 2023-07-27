@@ -3,6 +3,23 @@
       @include grid-slider($color-negro , 50px);
   }
 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+      font-size: 18px;
+      font-family: $font-lucida;
+  }
+
+  a {
+      color: $color-blanco;
+      font-size: 16px;
+      text-decoration: none;
+  }
+
   .slider-productos {
       padding-left: 100px;
       display: grid;
@@ -40,6 +57,24 @@
 }
 
 @include mobile {
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+      font-size: 28px;
+      font-family: $font-lucida;
+  }
+
+  a {
+      color: $color-blanco;
+      font-size: 28px;
+      text-decoration: none;
+  }
+
 .slider-productos {
   display: grid;
   grid-template-rows: auto auto auto;
@@ -86,6 +121,24 @@
 }
 
 @include tablet {
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+      font-size: 28px;
+      font-family: $font-lucida;
+  }
+
+  a {
+      color: $color-blanco;
+      font-size: 28px;
+      text-decoration: none;
+  }
+
   .slider-productos {
     display: grid;
     grid-template-rows: auto auto auto;
