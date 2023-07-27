@@ -119,6 +119,22 @@ footer {
     padding-bottom: 20px;
     margin-top: 60px;
     font-family: "Lucida Sans", sans-serif;
+    overflow: hidden;
+  }
+  .envios p {
+    position: relative;
+    animation: desplazar 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
+  }
+  @keyframes desplazar {
+    0% {
+      transform: translateX(-100%);
+    }
+    70% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(0);
+    }
   }
 }
 @media screen and (max-width: 767px) {
