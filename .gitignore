@@ -3,3 +3,6 @@
 
 # Ignorar archivo main (css original del proyecto)
 /css/main.css
+
+# Ignorar carpeta archivo (html original sin sass)
+/paginas/archivo
