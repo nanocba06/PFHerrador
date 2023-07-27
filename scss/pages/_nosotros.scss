@@ -1,0 +1,49 @@
+@include desptok {
+.bloque-nosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: $color-blanco;
+    justify-items: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 40px;
+}
+
+  .card-text {
+    text-align: center;
+    font-weight: 800;
+    color: $color-blanco;
+}
+  
+  .card-body {
+    background-color: $color-rojo;
+}
+}
+
+@include mobile {
+  .card-text {
+    text-align: center;
+    font-weight: 800;
+    color: $color-blanco;
+}
+  
+  .card-body {
+    background-color: $color-rojo;
+}
+}
+
+@include tablet {
+  .card-text {
+    text-align: center;
+    font-weight: 800;
+    color: $color-blanco;
+    font-size: 28px;
+}
+  
+  .card-body {
+    background-color: $color-rojo;
+}
+}

@@ -1,0 +1,22 @@
+.form-contenedor {
+    display: flex;
+    justify-content: center;
+  }
+
+.form-suscripcion {
+    color: $color-blanco;
+    display: flex;
+    align-items: center;
+    width: 900px;
+    gap: 5px;
+}
+
+.form-control{
+  border-width: 1px; 
+  border-color: $color-amarillo;
+}   
+
+.form-control:focus {
+  border-color: #ff3823;
+  box-shadow: 0 0 0 0.2rem $color-rojo;
+} 

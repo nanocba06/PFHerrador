@@ -1,0 +1,90 @@
+@include desptok {
+.parrafo-servicios {
+    color: $color-blanco;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+.caja-servicios{
+    border-left: solid 4px $color-amarillo;
+    padding-left: 25px;
+    padding-right: 100px;
+
+  h2{
+    color: $color-rojo;
+  }
+
+  p{
+    text-align: justify;
+    font-size: 16px;
+  }
+}
+}
+
+@include mobile {
+  .parrafo-servicios {
+      color: $color-blanco;
+      font-size: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+    }
+  
+  .caja-servicios{
+      border-left: solid 4px $color-amarillo;
+      padding-left: 20px;
+      padding-right: 20px;
+      color: $color-blanco;
+  
+    h2{
+      color: $color-rojo;
+    }
+  
+    p{
+      text-align: justify;
+      font-size: 16px;
+    }
+  }
+  }
+
+  @include tablet {
+    .parrafo-servicios {
+        color: $color-blanco;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+      }
+    
+    .caja-servicios{
+        border-left: solid 4px $color-amarillo;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: $color-blanco;
+    
+      h2{
+        color: $color-rojo;
+      }
+    
+      p{
+        text-align: justify;
+        font-size: 26px;
+      }
+    }
+
+    img {
+      width: 100%;
+      padding-bottom: 20px;
+    }
+
+    .parrafo-servicios {
+      font-size: 36px;
+      padding-left: 20px;
+      padding-bottom: 20px;
+    }   
+    }

@@ -1,0 +1,21 @@
+/*Colores Primarios*/
+$color-negro: rgb(19, 19, 19);
+$color-amarillo: #ffc957;
+$color-rojo: #ff3823;
+$color-blanco: #dbd1d0;
+
+/*Tipografia*/
+$font-lucida: 'Lucida Sans',  sans-serif;
+$font-fraunces: 'Fraunces', serif;
+$font-barlow: 'Barlow', sans-serif;
+
+@mixin grid-slider ($var-color, $ptop) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    color: $color-blanco;
+    justify-items: center;
+    align-items: center;
+    padding-top: $ptop ;
+    background-color: $var-color;
+}

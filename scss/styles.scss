@@ -1,0 +1,14 @@
+@import 'general/variables';
+
+@import 'general/base';
+@import 'general/media-query';
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'components/_subscription';
+@import 'components/_video';
+@import 'components/slider';
+
+@import 'pages/nosotros';
+@import 'pages/servicios';
+@import 'pages/contacto';
