@@ -25,6 +25,8 @@
       display: grid;
       grid-template-rows: auto auto auto;
       align-content: start;
+      opacity: 0; 
+      animation: slide-in 1s forwards;
 
       h2 {
       font-size: 42px;
@@ -37,7 +39,7 @@
       font-size: 22px;
       letter-spacing: 0.15px;
       }
-  }
+  } 
 
     .slider-productos-imagen {
       padding-right: 100px;
@@ -65,13 +67,13 @@
   }
 
   li {
-      font-size: 28px;
+      font-size: 16px;
       font-family: $font-lucida;
   }
 
   a {
       color: $color-blanco;
-      font-size: 28px;
+      font-size: 16px;
       text-decoration: none;
   }
 
@@ -79,6 +81,8 @@
   display: grid;
   grid-template-rows: auto auto auto;
   align-content: start;
+  opacity: 0; 
+  animation: slide-in 1s forwards;
 
   h2 {
     font-size: 32px;
@@ -129,13 +133,13 @@
   }
 
   li {
-      font-size: 28px;
+      font-size: 18px;
       font-family: $font-lucida;
   }
 
   a {
       color: $color-blanco;
-      font-size: 28px;
+      font-size: 18px;
       text-decoration: none;
   }
 
@@ -143,6 +147,8 @@
     display: grid;
     grid-template-rows: auto auto auto;
     align-content: start;
+    opacity: 0; 
+    animation: slide-in 1s forwards;
   
     h2 {
       font-size: 42px;
@@ -184,4 +190,4 @@
     width: 50%;
   }
 
-  }
+  } 
